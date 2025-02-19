@@ -1,0 +1,52 @@
+*{
+	padding: 0px;
+	margin: 0px;	
+}
+body{
+   background-color: #ffc054;
+}
+.header h1{
+	color: #ff5300;
+	text-align: center;
+	font-size: 3vw;
+	margin: 1.5vw 0px;
+}
+
+/* 整体容器样式 */
+.assignment-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+.assignment-container .item{
+	width: 15%;
+	border-left:2px solid #ff5300 ;
+
+}
+.assignment-container .item:first-child{
+	border-left: 0px;
+}
+.assignment-container .item img{
+	width: 90%;
+	border-radius: 5%;
+}
+.assignment-container .item p{
+	background-color: #000;
+	color: #659cbb;
+	text-align: center;
+	font-size: 2vw;
+	padding: 1vw 0px;
+	
+}
+.assignment-container .item a{
+	text-decoration: none;
+}
+.assignment-item{
+	display: flex;
+	justify-content: center;
+	
+}
+
+
